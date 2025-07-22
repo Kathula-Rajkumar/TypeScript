@@ -56,3 +56,12 @@ Updated User Info:
 Name: Rajkumar
 Email: rajkumar@gmail.com
 Password: 123
+
+
+
+
+
+//exclude in ts 
+
+Exclude<"a" | "b" | "c", "a">   // Result: "b" | "c"
+
